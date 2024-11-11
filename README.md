@@ -1,7 +1,5 @@
 # PDF to MIDI Converter
 
-### Node.js and npm Installation
-
 This project requires node.js and npm, as well as [MuseScore](https://musescore.org/).
 
 ### Dependencies
