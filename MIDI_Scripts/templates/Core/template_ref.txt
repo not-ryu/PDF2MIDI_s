@@ -1,0 +1,48 @@
+Cleffs:
+	<cg> 	- Sol cleff
+	<cf> 	- Fa cleff
+	<cc> 	- Do cleff
+Notes Heads:
+	<f>	- Basic full
+	<o> 	- Basic open	(whole note, half note)
+	<x> 	- Percussion	(TAB)
+	<d>	- Diamond	(harmonics)
+Stems:
+	Single:
+		<sw> 	- Stem whole
+		<sH> 	- Stem half
+		<sq> 	- Stem quaver
+		<ss>	- Stem semi-quaver
+		<sd>	- Stem demi-semiquaver
+		<sh> 	- Stem hemi-demisemiquaver
+		<sq> 	- Stem quasi-hemidemisemiquaver
+		<sss> 	- Stem semi-Q-H-D-S-quaver
+		<sdd> 	...
+		...
+	Linked:
+		<Sw>	- Stem_L whole
+		...
+Rests:
+	<rw> 	- Whole rest
+	<rh> 	- Half rest
+	<rq> 	- Quaver rest
+	<rs> 	- Semi-quaver rest
+	...
+Accidents:
+	<as>	- Sharp
+	<ab>	- Flat
+	<an>	- Natural
+	<aS>	- Double Sharp
+	<aB>	- Double Flat
+Key:
+	<kC>	- C Major
+	<kc>	- C minor
+	<kCs>	- C Major sharp
+	<kCb>	- C Major flat
+	...
+Time Sig.:
+	<t> 	- Common(4/4)
+	<t22> 	- 2/2
+	<t38>	- 3/8
+	...
+

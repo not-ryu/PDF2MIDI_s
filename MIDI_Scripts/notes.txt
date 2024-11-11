@@ -1,0 +1,52 @@
+Run all: 
+	/run_all.sh
+		PNG only. Do PDF to PNG separate.
+
+
+1. PDF->PNG:
+	/convert_best.py
+
+2. PNG->pre-MIDI:
+	/main.py 
+	:
+	i. a) templte matching:
+		/template_match_last.py
+		param:
+			templates: cathegory of templates
+			threshold: templete confidence
+			min_distance: distance between templates; allow overlap
+		b) simplify image; remove already found matches:
+		/rm_rect.py 
+
+	ii. CV
+		a) /morph_map.py 
+			morphologyex():
+				ker: kernel size in pixels for gathering elements;
+					depends on onject size of each image
+		b) /get_shaft.py 
+		c) /get_barlines_v3.py
+		d) /almost_lines.py 
+		e) /staff_lines.py 
+		f) /ledger_centroids.py
+
+	iii. Sort up things
+		a) /NoteMapper.py 
+		b) /match_accidents.py
+			group_max_dist: maximmum distance in pixels to consider
+					accidnets as part of the same cluster
+			y_threshold: (def find_keys)
+				distance to consider accident part of the key sidnature
+			x_limit: (same ↑)
+		c) /NoteModifiers.py 
+
+	out (format): /out/notes_strc_sample.txt 
+
+
+3. pre-MIDI->MIDI:
+	/Make_MIDI.py
+	
+	(Not acutally MIDI format, its something else but close enough)
+
+
+
+

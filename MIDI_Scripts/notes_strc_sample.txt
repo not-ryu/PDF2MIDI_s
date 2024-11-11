@@ -1,0 +1,30 @@
+
+
+right_hand = [
+    {
+        "measure": 1,
+        "clef": "fa",
+        "key_signature": +3,
+        "notes": [
+            {"pitch": "D3", 'duration': 2, "type": "note"},
+            {'clef_change': 'sol'},
+            {"pitch": ['F5', 'F6'], 'duration': 1/2, "type": "note"},
+            {"pitch": "F5", 'duration': 1/2, "type": "note"},
+            {"pitch": "F5", 'duration': 1/4, "type": "note"},
+            {"pitch": "F5", 'duration': 1/4, "type": "note"},
+            {"pitch": ['C5', 'C6'], 'duration': 1/6, "type": "note"},
+            {"pitch": "F5", 'duration': 1/6, "type": "note"},
+            {"pitch": ['C5', 'C6'], 'duration': 1/6, "type": "note"},
+        ]
+    },
+    {
+        "measure": 2,
+        "notes": [
+            {"pitch": ['D5', 'D6'], 'duration': 2, "type": "note"},
+            {"clef_change": "fa"}, 
+            {"pitch": 'D3', 'duration': 1, "type": "note", 'dot': 1},
+            {"pitch": 'G2', 'duration': 1/2, "type": "note"},
+        ]
+    },
+]
+
