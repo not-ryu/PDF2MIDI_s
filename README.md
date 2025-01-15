@@ -2,6 +2,12 @@
 
 This project requires node.js and npm, as well as [MuseScore](https://musescore.org/).
 
+## Project Title
+
+**Status: Incomplete**  
+This project is still under development and is not ready for production use. But demos can be run.
+
+
 ### Dependencies
 1. **Install Python requirements**:
     ```bash
